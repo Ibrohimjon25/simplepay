@@ -1,0 +1,43 @@
+
+input, datepicker, fileuploader, select2
+
+
+bank_jism(id, tashkilot_nomi, firstname, surname, otchestva, email, inn, passport_rasm, propiska_rasm, royhatdan_otgan_sana)
+plastik_karta(id, karta_raqam, amal_qilish_muddati, bank_jism_id, olingan_vaqt, mablag)
+bank_yuridik(id, tashkilot_nomi, boshliq_fio, INN, hisob_raqam, passport_boshliq, royhatdan_otgan_sana, mablag)
+category(id, name, img)
+people(id, firstname, lastname, phone_number, karta_id, jism_id)
+organization(id, organization_name, email, hisob_raqam, category_id, service, service_img, yuridik_id)
+tranzaktsiya(id, qabul_qiluvchi_karta_raqam, qabul_qiluvchi_hisob_raqam, uzatvchi_karta_raqam, uzatuvchi_hisob_raqam, uzatish_vaqti, qabul_qilish_vaqti, mablag)
+
+users(username, surname, birthdate, azo_bolgan_sana, rasm, kasbi, description, phone_number, email)
+
+https://tuitcodertestbot.000webhostapp.com/
+
+1. admin panel gii
+2. admin panel (login, logout, register)
+3. rbac
+4. tajvid 2 ta dars
+5. quron kichik suralar barvchasi takrorlanadi
+6. biznes haqida organ
+
+
+
+
+
+Muammolar. 
+1. profile page da app backend yozuvini olib tashla
+2. profile page da Rasmni ozgartirsa boladigan qil
+3. profile page da Bazi malumotlarni tahrirlash imkoni bolsin
+4. royhatdan otishda dizaynni togrilash kerak
+5. user img larga with, height berish kerak
+
+
+	1. shaxsiy kabinet
+2. search
+3. baza toldirish
+
+Frontend. 
+1. search
+2. transfer
+
